@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import img1 from './assets/images/img1.jpg';
 import img2 from './assets/images/img2.jpg';
 import img3 from './assets/images/img3.jpg';
+import img4 from './assets/images/img4.jpg';
 
 function App() {
   const [activeService, setActiveService] = useState(null);
@@ -93,10 +94,10 @@ function App() {
         <div id="heroBgCarousel" className="carousel slide carousel-fade h-100 position-absolute w-100" data-bs-ride="carousel" data-bs-interval="4000" style={{zIndex: 0}}>
           <div className="carousel-inner h-100">
             <div className="carousel-item active h-100">
-              <div className="hero-slide-bg" style={{backgroundImage: `url(${img1})`}}></div>
+              <div className="hero-slide-bg" style={{backgroundImage: `url(${img2})`}}></div>
             </div>
             <div className="carousel-item h-100">
-              <div className="hero-slide-bg" style={{backgroundImage: `url(${img2})`}}></div>
+              <div className="hero-slide-bg" style={{backgroundImage: `url(${img4})`}}></div>
             </div>
             <div className="carousel-item h-100">
               <div className="hero-slide-bg" style={{backgroundImage: `url(${img3})`}}></div>
