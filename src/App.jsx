@@ -228,14 +228,6 @@ function App() {
               </div>
             ))}
           </div>
-
-          <div className="mt-5 p-5 glass-card border-0 shadow-lg text-center animate-up delay-3 bg-white mx-auto" style={{maxWidth: '900px'}}>
-             <h5 className="fw-bold mb-4 text-primary">Our Approach</h5>
-             <p className="text-muted small mb-0 lh-lg">
-                Our work is guided by our five core principles: <br />
-                <span className="fw-bold text-dark">Sampark (Contact), Sahyog (Cooperation), Sanskar (Values), Sewa (Service), and Samarpan (Dedication).</span>
-             </p>
-          </div>
         </div>
       </section>
 
