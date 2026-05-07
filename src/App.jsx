@@ -74,7 +74,7 @@ function App() {
             <p className="lead text-white-50 mb-5 fs-4 mx-auto animate-up delay-3" style={{maxWidth: '850px', letterSpacing: '0.5px', lineHeight: '1.6'}}>
               A value-driven socio-cultural organization dedicated to strengthening communities through <span className="text-white fw-bold">Service, Culture, and Meaningful Connections</span>. Join a mission-driven community of professionals and visionaries.
             </p>
-            <div className="d-flex justify-content-center gap-3 animate-up delay-4">
+            <div className="hero-action-group animate-up delay-4">
               <a href="#join" className="btn btn-primary btn-lg px-5 shadow-lg fw-bold">JOIN THE MISSION</a>
               <a href="#about" className="btn btn-outline-light btn-lg px-5 fw-bold">EXPLORE VALUES</a>
             </div>

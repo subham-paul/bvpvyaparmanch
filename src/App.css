@@ -92,6 +92,20 @@ body {
 
 .hero-static-content {
   max-width: 950px;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.hero-action-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-action-group .btn {
+  min-width: 180px;
 }
 
 .display-1 {
@@ -100,6 +114,68 @@ body {
   letter-spacing: -1.5px;
   line-height: 1.05;
   text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 991.98px) {
+  .hero-section-full {
+    min-height: 85vh;
+  }
+
+  .hero-static-content {
+    padding: 0 1rem;
+  }
+
+  .display-1 {
+    font-size: clamp(2.4rem, 11vw, 3.5rem);
+  }
+
+  .hero-static-content .lead {
+    font-size: 1rem !important;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-action-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-action-group .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .parallax-section {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section-full {
+    min-height: 75vh;
+  }
+
+  .hero-static-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .glass-card {
+    padding: 1.5rem;
+  }
+
+  .display-1 {
+    font-size: clamp(2rem, 12vw, 3rem);
+  }
+
+  .hero-static-content .lead {
+    font-size: 0.95rem !important;
+    line-height: 1.65;
+  }
 }
 
 .hero-static-content .lead {
