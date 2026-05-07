@@ -1,10 +1,12 @@
 import React from 'react';
+import bvpLogo from '../assets/images/bvp_logo.png'; // Import the logo image
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-light-custom sticky-top py-2">
       <div className="container-fluid px-lg-5">
         <a className="navbar-brand text-dark d-flex align-items-center" href="#home" style={{ letterSpacing: '-0.5px' }}>
+          <img src={bvpLogo} alt="BVP Logo" style={{ height: '35px', marginRight: '10px' }} className="d-inline-block align-text-top" />
           <span className="fw-black text-primary">BVP</span>
           <span className="fw-light text-dark ms-1">Vyapar</span>
           <span className="fw-bold text-dark italic" style={{ fontSize: '1.1rem', opacity: 0.85 }}>Manch</span>
